@@ -1,4 +1,4 @@
-name: "Reusable"
+name: "ext"
 
 on:
   pull_request:
