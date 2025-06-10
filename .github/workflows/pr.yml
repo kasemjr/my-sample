@@ -1,4 +1,4 @@
-name: "[PR]"
+name: "Reusable"
 
 on:
   pull_request:
@@ -6,5 +6,5 @@ on:
     branches: [main]
 
 jobs:
-  reusable:
+  pull-request:
     uses: kasemjr/my-actions/.github/workflows/pull-request.yml@v0.1.0
