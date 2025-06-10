@@ -1,0 +1,10 @@
+name: "ext"
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+    branches: [main]
+
+jobs:
+  pull-request:
+    uses: kasemjr/my-actions/.github/workflows/pull-request.yml@v0.1.0
